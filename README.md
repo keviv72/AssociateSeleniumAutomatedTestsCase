@@ -5,7 +5,7 @@ Associate automated tests with test cases of selenium project -@author Vivek Sin
 Devops :  https://dev.azure.com/{organization}/{project}/_apis/testplan
 
 Please find Steps to achieve your desired goal ->
-Step 1: Add Jar to your project Build Path ->configure Build path or directly add required classes from [https://github.com/keviv72?tab=projects]
+Step 1: Add Jar to your project Build Path ->configure Build path or directly add required classes from [https://github.com/keviv72/AssociateSeleniumAutomatedTestsCase/]
 Step 2: Create LinkTestCase class member into your hooks file of selenium project
         2.1 Initialization above variable in Setup one of function of hooks file [LinkTestCase linkTestCase = null].
             2.1.1 new LinkTestCase("organization Name","project name", "create personal access token from azure devops token",new File("Valid JSON File path")).
