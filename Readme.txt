@@ -7,8 +7,8 @@ Devops :  https://dev.azure.com/{organization}/{project}/_apis/testplan
 Please find Steps to achieve your desired goal ->
 Step 1: Add Jar to your project Build Path ->configure Build path or directly add required classes from [https://github.com/keviv72/AssociateSeleniumAutomatedTestsCase/]
 Step 2: Create LinkTestCase class member into your hooks file of selenium project
-        2.1 Initialization above variable in Setup one of function of hooks file [LinkTestCase linkTestCase = null].
-            2.1.1 new LinkTestCase("organization Name","project name", "create personal access token from azure devops token",new File("Valid JSON File path")).
+        2.1 Initialization above variable in hooks file [LinkTestCase linkTestCase = null].
+            2.1.1 call constructor in hooks file inside setup one of function of hooks file new LinkTestCase("organization Name","project name", "create personal access token from azure devops token",new File("Valid JSON File path")).
         2.2 Update status of your test case in teardown one of function in hooks file of selenium project.
             2.2.1 call function linkTestCase.updateStatus(Test Case Id of your test case in ADO,"Status").
             2.2.2 to know your test case fail or pass in tear down function -> scenario.getStatus();.
