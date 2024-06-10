@@ -1,0 +1,17 @@
+{
+  
+  "testplan": {
+    "testplanid": 5464,
+    "suite": [
+         {
+           "suiteId":343,
+            "allTestCasesAssosiatedwithSuite": "4543,34345,4544,445435,565465,7565,35435,102,56465,5255"
+         },
+         {
+        
+           "suiteId":325,
+            "allTestCasesAssosiatedwithSuite": "2145,35345,4744,4435,5465,765,3435,543543,5465,565"
+         }
+    ]
+  }
+}
