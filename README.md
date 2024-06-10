@@ -10,9 +10,9 @@ Step 1: Add Jar to your project Build Path ->configure Build path or directly ad
 
 Step 2: Create LinkTestCase class member into your hooks file of selenium project
 
-        2.1 Initialization above variable in Setup one of function of hooks file [LinkTestCase linkTestCase = null].
+        2.1 Initialization above variable in hooks file [LinkTestCase linkTestCase = null].
 
-            2.1.1 new LinkTestCase("organization Name","project name", "create personal access token from azure devops token",new File("Valid JSON File path")).
+            2.1.1 call constructor in hooks file inside setup one of function of hooks file new LinkTestCase("organization Name","project name", "create personal access token from azure devops token",new File("Valid JSON File path")).
 
         2.2 Update status of your test case in teardown one of function in hooks file of selenium project.
 
