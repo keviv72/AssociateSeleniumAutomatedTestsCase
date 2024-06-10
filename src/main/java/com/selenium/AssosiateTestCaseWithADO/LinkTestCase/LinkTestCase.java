@@ -1,4 +1,11 @@
 package com.selenium.AssosiateTestCaseWithADO.LinkTestCase;
+/**
+ * This File will define required paratmeter helpful in making connection in hooks file of selenium project
+ ** @author Vivek Singh Bhatnagar
+ * @date 09 june 2024
+ * current working as Principal Software Engineer[QC] in Powerserv Technologies
+ * https://github.com/keviv72/
+ */
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode; 
