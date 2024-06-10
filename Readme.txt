@@ -1,5 +1,5 @@
 # AssociateSeleniumAutomatedTestsCase
-Associate automated tests with test cases of selenium project -@author Vivek Singh Bhatnagar
+Associate Azure Devops test Plan test cases with test cases of selenium project -@author Vivek Singh Bhatnagar
 
 
 Devops :  https://dev.azure.com/{organization}/{project}/_apis/testplan
